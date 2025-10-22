@@ -17,15 +17,15 @@ public class SiakadWhileNoAbsen {
             System.out.print("Masukkan nilai mahasiswa ke-" + i + " : ");
             nilai = sc.nextDouble();
 
-            // pengecekan validitas nilai
             if (nilai < 0 || nilai > 100) {
                 System.out.println("Nilai Tidak Valid\n");
                 continue; 
             }
 
-            // menentukan kategori 
+            //menentukan kategori
             if (nilai > 80 && nilai <= 100) {
-                System.out.println("Nilai mahasiswa ke-" + i + " adalah A\n");
+                System.out.println("Nilai mahasiswa ke-" + i + " adalah A");
+                System.out.println("Bagus, pertahankan nilainya!\n"); 
             } else if (nilai > 73 && nilai <= 80) {
                 System.out.println("Nilai mahasiswa ke-" + i + " adalah B+\n");
             } else if (nilai > 65 && nilai <= 73) {
@@ -42,6 +42,7 @@ public class SiakadWhileNoAbsen {
 
             i++; 
         }
-                sc.close();
+        
+        sc.close();
     }
 }
