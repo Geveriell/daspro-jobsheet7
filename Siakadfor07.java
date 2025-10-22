@@ -1,6 +1,6 @@
 import java.util.Scanner; 
 
-public class SiakadFor07 { 
+public class Siakadfor07 { 
     public static void main(String[] args) { 
         Scanner sc = new Scanner(System.in); 
 
